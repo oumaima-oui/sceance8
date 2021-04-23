@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=,initial-scale=1.0">
+        <link rel="stylesheet"href="./sceance8.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <title> Shop</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header">
+                    <h1> Books shop</h1>
+                 <p>Here you can shop easily</p>
+                </div>
+                <nav class="navbar">
+                    <a href="#Home">Home</a>
+                    <a href="#Horreur">Horreur</a>
+                    <a href="#Romantic">Romantic</a>
+                    <a href="#Action & Adventure">Action & Adventure</a>
+                    <input class="search-txt"type="text" name=""placeholder="type to search">
+                    <a class="search-btn"href="#"></a>
+                    <div class="access">
+                        <i class="fas fa-bell"></i>
+                        <i class="fas fa-shopping-cart"></i>
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </nav>
+            </header>
+            <div class="total">
+                <p id="total">shopping-cart total :$0</p>
+            </div>
+            <div class="row-1">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/haunted-house-horror-book-cover-design-template-fd3a8016a4128af962549c3c40190270_screen.jpg?ts=1588747771"width="130"/>
+                <p> House of secrets</p>
+                    <p> Author :Maria Ramsey </p>
+                <h3 class="price">price:15$</h3>
+                <div class="form-group">
+                    <label>Quantity: </label>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button id="down" class="btn btn-default" onclick=" down('0')">-<span class="glyphicon glyphicon-minus"></span></button>
+                        </div>
+                        <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                        <div class="input-group-btn">
+                            <button id="up" class="btn btn-default" onclick="up('10')">+<span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-heart"></i>
+            </div> 
+            <div class="row-2">
+                <img src="https://prodimage.images-bn.com/pimages/9781435160514_p0_v1_s550x406.jpg"width="130"/>
+                <span> Pride and Prejudice </span>
+                 <p> Jane Austen (Author)</p>
+                <h3 class="item-price">price:19$</h3>
+                <div class="form-group">
+                    <label>Quantity: </label>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button id="down" class="btn btn-default" onclick=" down('0')">-<span class="glyphicon glyphicon-minus"></span></button>
+                        </div>
+                        <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                        <div class="input-group-btn">
+                            <button id="up" class="btn btn-default" onclick="up('10')">+<span class="glyphicon glyphicon-plus"></span></button>
+                        </div>
+                    </div>
+                </div>
+                    <i class="fas fa-trash-alt"></i>
+                    <i class="fas fa-heart"></i>
+            </div>
+            <div class="row-3">
+                <img src="https://pbs.twimg.com/media/Ca29a8jXEAA7XRK?format=jpg&name=medium"width="130"/>
+                <span> Harry Potter and the cursed child </span>
+                 <p> J.K rowling (Author)</p>
+                <h3 class="item-price">price:25$</h3>
+                <div class="form-group">
+                    <label>Quantity: </label>
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button id="down" class="btn btn-default" onclick=" down('0')"><span class="glyphicon glyphicon-minus">-</span></button>
+                        </div>
+                        <input type="text" id="myNumber" class="form-control input-number" value="1" />
+                        <div class="input-group-btn">
+                            <button id="up" class="btn btn-default" onclick="up('10')"><span class="glyphicon glyphicon-plus">+</span></button>
+                        </div>
+                    </div>
+                </div>
+                    <i class="fas fa-trash-alt"></i>
+                    <i class="fas fa-heart"></i>
+            </div>
+            <footer class="foot">
+                <hr>
+                 <p> 
+                  Website designed in:2021
+                </p>
+            </footer>
+        </div>
+       <script type ="text/javascript"src="script.js"></script>
+    </body>
+</html>
