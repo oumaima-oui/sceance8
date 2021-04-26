@@ -1,1 +1,28 @@
+ALGORITHM algorithm_name
+VAR
+   String string = "The best of both worlds";  
+        int count = 0; 
+BEGIN
+      for(int i = 0; i < string.length(); i++) {  
+            if(string.charAt(i) != ' ')  
+                count++;  
+        }  
+END
+    output :19
 
+ALGORITHM algorithm_name
+VAR
+    str = str.toLowerCase();
+     int vCount = 0, cCount = 0;  
+BEGIN
+   for (int i = 0; i < str.length(); i++) { 
+   if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i'
+  || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+          vCount++;
+ }
+  else if (str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
+        cCount++;
+            }
+    
+  }       
+END
